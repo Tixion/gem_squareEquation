@@ -4,10 +4,12 @@
     {
         Console.WriteLine("Starting...");
 
-        string choice;
-        Console.WriteLine("Выберите тип ввода коэффициентов квадратного уравнения. " +
-            "Введите \"1\" или \"2\"(без кавычек), где единица значит консольный ввод, а двойка - ввод из файла.");
-        choice = Console.ReadLine();
+        string choice = "";
+        do {
+            Console.WriteLine("Выберите тип ввода коэффициентов квадратного уравнения. " +
+                "Введите \"1\" или \"2\"(без кавычек), где единица значит консольный ввод, а двойка - ввод из файла.");
+            choice = Console.ReadLine();
+        } while (choice == "" || (choice != "1" && choice != "2"));
 
         ICoefficientReader reader;
 
