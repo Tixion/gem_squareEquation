@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gem_squareEquation", "gem_squareEquation\gem_squareEquation.csproj", "{80AFF8B3-F615-44B8-A779-A2718EE31267}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80AFF8B3-F615-44B8-A779-A2718EE31267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80AFF8B3-F615-44B8-A779-A2718EE31267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80AFF8B3-F615-44B8-A779-A2718EE31267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80AFF8B3-F615-44B8-A779-A2718EE31267}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBDDF762-F615-4788-8BB9-8496E073BA33}
+	EndGlobalSection
+EndGlobal
