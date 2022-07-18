@@ -1,4 +1,4 @@
-﻿public class CoefficientFromConsoleReader : ICoefficientReader
+﻿public class CoefficientConsoleReader : ICoefficientReader
 {
     public int[] ReadCoefficients()
     {
