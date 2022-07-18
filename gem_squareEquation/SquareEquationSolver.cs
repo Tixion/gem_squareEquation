@@ -32,8 +32,9 @@ public class SquareEquationSolver
         double D = b * b - 4 * a * c;
         if (D < 0)
         {
-            Console.WriteLine("Корней нет");
-            roots = new double[] { 0, 0 };
+            throw new Exception("Корней нет");
+            //Console.WriteLine("Корней нет");
+            //roots = new double[] { 0, 0 };
         }
         if (D == 0)
         {
